@@ -1,0 +1,234 @@
+body {
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+dl {
+	margin: 0;
+}
+
+dt {
+	font-weight: normal;
+}
+
+ul,
+li {
+	list-style-type: none;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	-o-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input,
+button,
+select {
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.wrap {
+	width: 100%;
+	overflow: hidden;
+	min-width: 320px;
+	margin: 0px auto;
+	max-width: 640px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+/*公共样式勿删除*/
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.f_b {
+	font-weight: bold;
+}
+
+.v_m {
+	vertical-align: middle;
+}
+
+.v_t {
+	vertical-align: top;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+
+
+
+/**/
+.letter {
+	background: url(../image/bg.jpg) repeat;
+	color: #fff;
+}
+
+#bye {
+	width: 100%;
+	height: 100%;
+}
+
+#pic {
+	width: 40%;
+	max-width: 200px;
+	margin: 40px auto;
+	border-radius: 50%;
+}
+
+#pic img {
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#pic .hover {
+	display: none;
+}
+
+#pic .normal {
+	display: block;
+}
+
+#pic.next .hover {
+	display: block;
+}
+
+#pic.next .normal {
+	display: none;
+}
+
+#bye .letter,
+#bye .message {
+	max-width: 800px;
+	padding: 0 20px;
+	margin: 0 auto;
+	line-height: 1.7;
+	font-size: 14px;
+}
+
+#bye .letter h3 {
+	font-size: 14px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+#bye .letter p {
+	padding: 6px 0;
+	text-indent: 2em;
+}
+
+#bye .sign {
+	padding: 6px 0;
+	text-align: right;
+}
+
+#bye .sign p {
+	padding: 0;
+}
+
+#bye .message {
+	padding: 20px;
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, .15);
+}
+
+#bye .message h3 {
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	color: #dfdfdf;
+}
+
+#bye .message p {
+	padding: 6px 0;
+	color: #acaca9;
+}
+
+#bye .message .box {
+	padding: 10px 0 50px 0;
+	text-align: center;
+}
+
+#bye .connect {
+	padding: 40px 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#bye .connect span {
+	padding: 0 10px;
+}
+
+#bye .connect a,
+#bye .connect b {
+	color: #1cd39b;
+	font-weight: normal;
+}
+
+#bye .tks {
+	padding: 0 20px 40px 20px;
+	font-size: 14px;
+	text-align: center;
+	color: #acaca9;
+}
